@@ -18,7 +18,6 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
   const islandRef = useRef();
 
   const { gl, viewport } = useThree();
-  console.log("gl: " + gl + "::::  viewport: " + viewport);
   const { nodes, materials } = useGLTF(IslandScene);
 
   const lastX = useRef(0);
