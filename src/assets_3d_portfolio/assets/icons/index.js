@@ -12,6 +12,10 @@ import nodejs from './nodejs.svg'
 import react from './react.svg'
 import redux from './redux.svg'
 import sass from './sass.svg'
+import aws from './aws.svg'
+import cpp from './cpp.svg'
+import python from './python.svg'
+import java from './java.svg'
 import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
@@ -45,6 +49,10 @@ export {
     tailwindcss,
     typescript,
     linkedin,
+    java,
+    python, 
+    cpp, 
+    aws,
     twitter,
     car,
     estate,
